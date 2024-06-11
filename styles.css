@@ -1,0 +1,295 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3a3a;
+    padding: 10px;
+    position: fixed;
+    margin-top: 0%;
+    width: 100%;
+    padding-right: 10px;
+}
+
+nav .contact-info {
+    display: flex;
+    align-items: center;
+}
+
+nav .display-picture {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+nav .sections-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav .sections-nav a:hover {
+    text-decoration: underline;
+}
+.sections-nav{
+    margin-right: 10px;
+}
+
+/* Introduction Section */
+#introduction {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(116, 111, 111, 0.1);
+    margin-top: 75px;
+}
+
+#introduction img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+#introduction h2,
+#introduction h4,
+#introduction h5 {
+    margin: 10px 0;
+    color: #3a3a3a;
+}
+
+.introduction-div p {
+    margin: 10px 0;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#skills-container{
+   background-color: #776c6c;
+   border-radius: 20px;
+   
+}
+
+#skills h2 {
+    color: #3a3a3a;
+    text-align: center;
+}
+#technical-skills{
+    font-weight: bold;
+}
+#soft-skills{
+    font-weight: bold;
+}
+
+.technical-skills,
+.soft-skills {
+    margin-top: 20px;
+    margin: 5%;
+    text-align: justify;
+    padding: 10px;
+    background-color: #f5f5f5;
+   }
+
+.technical-skills h3,
+.soft-skills h3 {
+    color: #3a3a3a;
+}
+
+.technical-skills p,
+.soft-skills p {
+    margin: 10px;
+}
+
+#work-experience h3{
+    text-align: center;
+}
+
+/* Education Background Section */
+#ed-background {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(94, 85, 85, 0.1);
+}
+
+#ed-background h2 {
+    color: #3a3a3a;
+}
+
+.ed-description{
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.ed-description .university,
+.ed-description .seconary,
+.ed-description .primary {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.ed-description .Institution {
+    display: block;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+.ed-description .year,
+.ed-description .achievement {
+    display: block;
+}
+
+/* Work Experience Section */
+#work-experience {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#work-experience h2 {
+    color: #3a3a3a;
+}
+
+.work-description > div {
+    margin: 20px 0;
+}
+
+.work-description h3 {
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+
+.work-description ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.work-description ul h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.work-description ul li {
+    margin: 5px 0;
+}
+
+/* Achievements Section */
+#achievements {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#achievements h2 {
+    color: #3a3a3a;
+}
+
+#achievements h3{
+    text-align: center;
+}
+
+.date{
+    font-style: italic;
+}
+
+.ach-leatoto,
+.ach-siayaCG {
+    margin: 20px 0;
+}
+
+.ach-leatoto h3,
+.ach-siayaCG h3 {
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+
+.ach-leatoto ul,
+.ach-siayaCG ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ach-leatoto ul h4,
+.ach-siayaCG ul h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ach-leatoto ul li,
+.ach-siayaCG ul li {
+    margin: 5px 0;
+}
+
+/* Referees Section */
+#ref {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#ref h2 {
+    color: #3a3a3a;
+}
+
+.ref1,
+.ref2,
+.ref3 {
+    margin: 20px 0;
+}
+
+.ref1 h3,
+.ref2 h3,
+.ref3 h3 {
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+
+.ref1 ul,
+.ref2 ul,
+.ref3 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ref1 ul li,
+.ref2 ul li,
+.ref3 ul li {
+    margin: 5px 0;
+}
+h2{
+    text-align: center;
+}
